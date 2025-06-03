@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+}
+
+a {
+    color: #00ffff;
+}
+
+p {
+    text-align: justify;
+    color: #dddddd;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin: 40px;
+    border-radius: 20px;
+    background: center linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/header_bg.png) no-repeat 0 0
+}
+
+header h1,
+header h2 {
+    margin: 10px;
+}
+
+header h2 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+main {
+    margin: 40px;
+    min-height: calc(60vh - 20px);
+}
+
+.skip-link {
+    position: absolute;
+    top: -999px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 20px;
+}
+
+main figure img {
+    border: 2px solid #4f4f4f;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+}
+
+footer p {
+    text-align: center;
+}
+
+figure {
+    padding: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #cccccc;
+    padding-top: 20px;
+}
