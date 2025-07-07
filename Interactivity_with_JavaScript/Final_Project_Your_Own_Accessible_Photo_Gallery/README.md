@@ -7,7 +7,7 @@ Throughout the process make sure to validate your code on W3, Wave, and aXe.
 Once you have completed your assignment you will complete peer reviews. Because there are two or three challenging components to this assignment I hope you will learn from seeing the different approaches.
 
 ### Grading Criteria Overview
- Your project will be graded by the careful examination of your code by a peer as well as the [W3C Markup Validation Service Tool](https://validator.w3.org/) and the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). Your peers will look for the required functionality using both the mouse and a keyboard. 
+Your project will be graded by the careful examination of your code by a peer as well as the [W3C Markup Validation Service Tool](https://validator.w3.org/) and the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/). Your peers will look for the required functionality using both the mouse and a keyboard. 
 ### Step-By-Step Assignment Instructions
 1. **Use the code from the Interactive Photo Gallery as your starting point**
 2. Update the code to use six images of your choice, making sure to include alternative text for each.
