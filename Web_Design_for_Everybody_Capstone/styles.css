@@ -183,6 +183,7 @@ main {
     align-items: center;
     color: var(--component-color);
     text-decoration: none;
+    margin: auto;
 }
 
 .card-content .social-networks img[src$="myanimelist.svg"] {
