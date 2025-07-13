@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/9454be34e9.js" crossorigin="anonymous"></script>
+    <title>ElectroHeavenVN's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <i class="fa-solid fa-burger"></i>
+            <span>EHVN's Portfolio</span>
+        </div>
+        <nav>
+            <div class="themeSwitcher">
+                <input type="checkbox" @change="changeTheme" id="chk" aria-label="Toggle theme" />
+                <i class="fa-solid fa-moon light"></i>
+                <i class="fa-solid fa-sun dark"></i>
+            </div>
+            <a href="/">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </nav>
+        <!-- <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <div class="bg"></div>
+    <main>
+        <section id="about">
+            <div class="card-content">
+                <div class="main-info">
+                    <figure>
+                        <img class="avatar" src="img/avatar.png" alt="Avatar">
+                    </figure>
+                    <h2>ElectroHeavenVN</h2>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Vietnam</span>
+                    </p>
+                    <a class="follow" href="https://github.com/ElectroHeavenVN" target="_blank" rel="me noopener">
+                        <i class="fab fa-github"></i>
+                        <p>Follow on GitHub</p>
+                    </a>
+                </div>
+                <div class="social-networks">
+                    <a target="_blank" rel="me noopener" title="Github" href="https://github.com/ElectroHeavenVN">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="YouTube"
+                        href="https://www.youtube.com/@ElectroHeavenVN">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Discord" href="https://discord.gg/ekMDKCa5jQ">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Reddit" href="https://www.reddit.com/u/ElectroHeavenVN">
+                        <i class="fa-brands fa-reddit"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Telegram" href="https://t.me/electroheavenvn">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Twitter" href="https://www.twitter.com/ElectroHeavenVN">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Steam"
+                        href="https://steamcommunity.com/profiles/76561199082191680">
+                        <i class="fa-brands fa-steam"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="SoundCloud"
+                        href="https://soundcloud.com/electroheavenvn">
+                        <i class="fa-brands fa-soundcloud"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="Spotify"
+                        href="https://open.spotify.com/user/31yko3b7b7zfzs4btqipoeq5edrq">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                    <a target="_blank" rel="me noopener" title="MyAnimeList"
+                        href="https://myanimelist.net/profile/ElectroHeavenVN">
+                        <img src="https://simpleicons.org/icons/myanimelist.svg">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ElectroHeavenVN. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
