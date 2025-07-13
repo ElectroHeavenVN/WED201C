@@ -100,11 +100,14 @@ main {
 .card-content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 1.5rem;
+    gap: 1rem;
+    padding: 1rem;
     background-color: var(--component-bg);
     border: 1px solid var(--component-border);
     border-radius: 10px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-content .main-info {
@@ -133,7 +136,7 @@ main {
     padding: 3px 50px;
     padding-right: calc(1.25em);
     padding-left: calc(1.25em);
-    background-color: #2378ff;
+    background-color: black;
     cursor: pointer;
     border-radius: 5px;
     transform: skewX(-15deg);
@@ -168,18 +171,16 @@ main {
 }
 
 .card-content .social-networks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
 }
 
 .card-content .social-networks a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 15px;
     color: var(--component-color);
     text-decoration: none;
 }
@@ -187,6 +188,9 @@ main {
 .card-content .social-networks img[src$="myanimelist.svg"] {
     filter: var(--svg-filter);
     width: 25px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .card-content .social-networks a:hover {
@@ -235,7 +239,7 @@ footer p {
         --component-bg: #111;
         --component-color: white;
         --component-border: #666;
-        --svg-filter: invert(1);
+        --svg-filter: none;
     }
 }
 
@@ -247,7 +251,7 @@ footer p {
         --component-bg: white;
         --component-color: #333;
         --component-border: #ccc;
-        --svg-filter: none;
+        --svg-filter: invert(1);
     }
 }
 
@@ -258,7 +262,7 @@ footer p {
     --component-bg: white;
     --component-color: #333;
     --component-border: #ccc;
-    --svg-filter: none;
+    --svg-filter: invert(1);
 }
 
 [data-theme="dark"] {
@@ -268,5 +272,5 @@ footer p {
     --component-bg: #111;
     --component-color: white;
     --component-border: #666;
-    --svg-filter: invert(1);
+    --svg-filter: none;
 }
