@@ -26,18 +26,26 @@
                 <i class="fa-solid fa-house"></i>
             </a>
         </nav>
-        <!-- <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav> -->
+        <nav class="main-nav">
+            <a href="#about">
+                <i class="fa-solid fa-circle-info"></i>
+                About
+            </a>
+            <a href="#projects">
+                <i class="fa-solid fa-folder"></i>
+                Projects
+            </a>
+            <a href="#contact">
+                <i class="fa-solid fa-envelope"></i>
+                Contact
+            </a>
+        </nav>
     </header>
     <div class="bg"></div>
     <main>
         <section id="about">
-            <div class="card-content">
+            <div class="panel card-content">
+                <div class="cursor-follower"></div>
                 <div class="main-info">
                     <figure>
                         <img class="avatar" src="img/avatar.png" alt="Avatar">
@@ -45,11 +53,11 @@
                     <h2>ElectroHeavenVN</h2>
                     <p>
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Vietnam</span>
+                        <span>Hanoi, Vietnam 🇻🇳</span>
                     </p>
-                    <a class="follow" href="https://github.com/ElectroHeavenVN" target="_blank" rel="me noopener">
-                        <i class="fab fa-github"></i>
-                        <p>Follow on GitHub</p>
+                    <a class="mail" href="mailto:admin@electroheaven.id.vn" target="_blank" rel="me noopener">
+                        <i class="fa fa-envelope"></i>
+                        <p>Contact via email</p>
                     </a>
                 </div>
                 <div class="social-networks">
@@ -60,7 +68,8 @@
                     <a target="_blank" rel="me noopener" title="Github" href="https://github.com/ElectroHeavenVN">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a target="_blank" rel="me noopener" title="Discord" href="https://discord.com/users/650357286526648350">
+                    <a target="_blank" rel="me noopener" title="Discord"
+                        href="https://discord.com/users/650357286526648350">
                         <i class="fa-brands fa-discord"></i>
                     </a>
                     <a target="_blank" rel="me noopener" title="Reddit" href="https://www.reddit.com/u/ElectroHeavenVN">
@@ -86,9 +95,144 @@
                     </a>
                     <a target="_blank" rel="me noopener" title="MyAnimeList"
                         href="https://myanimelist.net/profile/ElectroHeavenVN">
-                        <img src="https://simpleicons.org/icons/myanimelist.svg" alt="MyAnimeList">
+                        <img class="mal" src="img/myanimelist.svg" alt="MyAnimeList">
                     </a>
                 </div>
+            </div>
+            <br>
+            <div class="panel paragraph-text">
+                <!-- TODO: multiple languages? -->
+                <h1>About Me</h1>
+                <p>
+                    I am a university student from the FPT University who enjoys reverse engineering,
+                    electrical engineering, embedded programming, and hands-on DIY projects. I like
+                    understanding systems at a low level, from firmware internals to board traces. In fact, my first
+                    passion is DIY electronics, before I became interested in programming, and then reverse engineering
+                    both hardware and software.
+                </p>
+                <p>
+                    I am particularly interested in the intersection of hardware and software, and I enjoy working on
+                    projects that involve both. I believe that a strong understanding of both domains is essential for
+                    creating innovative solutions.
+                </p>
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-star" style="color: yellow;"></i>
+                        Reverse Engineering - my primary focus
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        Electrical Engineering
+                    </li>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-star"></i>
+                        Programming - C#, C++, C, Vue, JavaScript, HTML, CSS and more
+                    </li>
+                    <li>Software Development - develop software for various platforms</li>
+                    <li>Embedded Systems - Arduino, STM32 and more</li>
+                </ul>
+                <h2>Achievements</h2>
+                <p>
+                    Right now, I don't have any major achievements to showcase yet (I do have both minor and major
+                    achievements in the past, but I don't want to list them here). However, I am actively working on
+                    several projects that I hope to share with the community soon. (When they are ready, I will add them
+                    here.) My goal is to contribute to the open-source community and help others learn and grow in the
+                    field of reverse engineering and embedded systems.
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="panel paragraph-text">
+                <h1>Projects</h1>
+                <p>
+                    Some open-source projects I am currently working on/finished (excluding projects that I don't want
+                    to list here) include:
+                </p>
+                <ul>
+                    <li>
+                        <a target="_blank" rel="me noopener" title="MuseDashDLCUnlocker"
+                            href="https://github.com/ElectroHeavenVN/MuseDashDLCUnlocker">MuseDashDLCUnlocker</a>
+                        - DLC unlocker for the rhythm game
+                        <a target="_blank" rel="me noopener" title="Muse Dash"
+                            href="https://store.steampowered.com/app/774171/Muse_Dash/">Muse Dash</a>.
+                    </li>
+                    <li>
+                        <a target="_blank" rel="me noopener" title="DataNRO"
+                            href="https://github.com/ElectroHeavenVN/DataNRO">DataNRO</a>
+                        - View name, type, ID,... of items, monsters, NPCs, maps, and other information of the game
+                        <a target="_blank" rel="me noopener" title="Dragon Ball Online"
+                            href="https://ngocrongonline.com/">Dragon Ball Online</a>
+                        and some of its private servers. Information is updated daily. The site is live at
+                        <a target="_blank" rel="me noopener" title="Dragon Ball Online"
+                            href="https://electroheavenvn.github.io/DataNRO/">here</a>.
+                    </li>
+                    <li>
+                        (Coming soon)
+                        <a target="_blank" rel="me noopener" title="ZepLaoSharp"
+                            href="https://github.com/ElectroHeavenVN/ZepLaoSharp">ZepLaoSharp</a>
+                        - Unofficial C# library for making userbots using the internal APIs of the
+                        <a target="_blank" rel="me noopener" title="Zalo" href="https://zalo.me/">Zalo chat
+                            platform</a>.
+                    </li>
+                </ul>
+                <h2>Projects in the past</h2>
+                <p>
+                    In the past, I have worked on several projects that I am proud of, including:
+                </p>
+                <ul>
+                    <li>
+                        <a target="_blank" rel="me noopener" title="Dragonboy"
+                            href="https://github.com/ElectroHeavenVN/Dragonboy">Dragonboy</a>
+                        - Modified client for the game 
+                        <a target="_blank" rel="me noopener" title="Dragon Ball Online"
+                            href="https://ngocrongonline.com/">Dragon Ball Online</a>
+                        with additional features aimed at enhancing the user experience.
+                    </li>
+                    <li>
+                        <a target="_blank" rel="me noopener" title="BabelDeobfuscator"
+                            href="https://github.com/ElectroHeavenVN/BabelDeobfuscator">BabelDeobfuscator</a>
+                        - Deobfuscator for the
+                        <a target="_blank" rel="me noopener" title="Babel Obfuscator"
+                            href="https://www.babelfor.net/">Babel Obfuscator</a>
+                        (last time I checked it still works!)
+                    </li>
+                </ul>
+                <h2>DIY Projects</h2>
+                <p>
+                    Unfortunately, all of my major DIY projects are either not documented online, or are in a state of disrepair. When I have the time, I will try to document them and share them with the community. Some of my past DIY projects include:
+                </p>
+                <ul>
+                    <li>DIY 100w PD Power Bank</li>
+                    <li>DIY 30w Bluetooth Speaker</li>
+                    <li>Modify my old laptop to use USB-C charging instead of the original barrel jack</li>
+                    <li>DIY RC boat</li>
+                    <li>DIY 2FA Hardware Token with RP2350</li>
+                    <li>Get free Hydrogen from electrolysis of water</li>
+                    <li>Lab bench power supply from old PC power supply</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="panel paragraph-text">
+                <h1>Contact</h1>
+                <p>
+                    If you want to contact me, you can send me an email at
+                    <a href="mailto:admin@electroheaven.id.vn">admin@electroheaven.id.vn</a>.
+                    I may not reply to all emails, but I will try my best to respond.
+                </p>
+                <h2>Social networks</h2>
+                <p>
+                    You can also contact me via my social networks listed above. I am most active on Discord and
+                    GitHub, so feel free to reach out to me there.
+                </p>
+                <br>
+                <p>
+                    If you want to contact me via Discord, which they require both parties to be friends, or have a mutual server, you can join my
+                    <a href="https://discord.gg/DsrrgrEQyH">Discord server</a>
+                    and send me a direct message there. I will try to respond when I can.
+                </p>
             </div>
         </section>
     </main>

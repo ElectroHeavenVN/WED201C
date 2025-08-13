@@ -1,0 +1,9 @@
+My Personal Portfolio Website
+
+This project is a fully responsive personal portfolio website designed and developed entirely from scratch without the use of pre-built templates, CSS frameworks, or JavaScript libraries. The goal of this project is to demonstrate a strong understanding of core web development technologies and principles, including HTML5, CSS3, and vanilla JavaScript. 
+
+My portfolio site features a clean, modern design that adapts seamlessly across devices and screen sizes, ensuring an optimal user experience on desktops, tablets, and smartphones. It  includes key portfolio sections such as an introduction, about me, featured projects, skills, contact form, and a downloadable resume. Smooth scrolling, interactive elements, and accessibility best practices are implemented to enhance usability.
+
+The portfolio site is built entirely with semantic HTML, custom CSS, and vanilla JavaScript, focusing on clean, maintainable code without relying on any frameworks or templates. It features a fully responsive, mobile-first layout that adapts seamlessly across devices using CSS techniques. Interactive elements such as smooth scrolling navigation, hover effects, etc. enhance the user experience. Accessibility and performance were key priorities, with optimized asset loading, proper contrast ratios, and keyboard navigation support throughout the site.
+
+The purpose of this project is to demonstrate a strong grasp of core front-end development skills and the ability to design and implement a responsive, user-friendly website from the ground up. By avoiding third-party frameworks, the project highlights problem-solving ability, attention to detail, and a solid understanding of web standards and best practices. It also serves as a professional platform to showcase personal work, technical skills, and design capabilities.
