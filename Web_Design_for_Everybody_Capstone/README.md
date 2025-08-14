@@ -1,12 +1,14 @@
-# Peer-graded Assignment: Option 1: Demo you portfolio (designed from scratch)
+# Option 1: Create your portfolio site (designed from scratch)
 ## Instructions
 Please upload the following information to help us assess it:
-    - A video and/or written description of your project.
-    - A link to the site
+- A video and/or written description of your project.
+- A link to the site
+
 Your submission should include clear evidence that your site is:
-    - w3 validator compliant (either through screen shots or demo),
-    - responsive (either through screen shots or a demo), and
-    - well-styled (feel free to show off your CSS files here).
+- w3 validator compliant (either through screen shots or demo),
+- responsive (either through screen shots or a demo), and
+- well-styled (feel free to show off your CSS files here).
+
 Don't forget to define and/or demonstrate your four "extras" as well. If necessary, include code.
 
 ### Grading Criteria Overview
