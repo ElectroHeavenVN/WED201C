@@ -59,6 +59,7 @@ Issues detected by your peer in the code review.
 - You have the order of your media queries in the wrong order.  
 - You have repeated display: grid in your media queries but that code is not necessary since the property is inherited from the mobile view.
 - When I changed the preferences on my computer there was still a scroll animation.
+
 Issues detected by a validator and reported to you by your peer.
 - W3 validator detected that your site has unclosed tags.  Please check the validator again.
 - Both validators detected that your third image is missing the alt attribute

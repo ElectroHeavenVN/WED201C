@@ -24,6 +24,7 @@ Issues you detected in the code review:
 - "The link to one of your images is broken."
 - "You have alt attributes on your images but some of them are not descriptive. Make sure to use descriptive text instead of empty quotes ""."
 - "The alt attribute on your second image just says "photo". Use something more descriptive."
+
 Issues you detected using a validator:
 - "W3 validator detected that your site is missing the title element. Add it to the head section."
 - "Both validators detected that your third image is missing the alt attribute."

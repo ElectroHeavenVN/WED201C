@@ -6,6 +6,7 @@ In this assignment you will create an original site and then demonstrate the ski
 - Effectively use the grid and flex property values.
 - Use the box model to style elements in an attractive manner.
 - Use validators to ensure that your site is syntactically correct and accessible.
+
 When you are done you will host your site and then complete peer reviews. The reviews not only provide feedback for your peers, but are a great way for you to see how CSS can generate such different looks for identical HTML code.
 
 ### Grading Criteria Overview

@@ -28,6 +28,7 @@ Your project will be graded by the careful examination of your code by a peer as
 ### Examples of Good Feedback
 Issues detected by your peer in the code review.
 - Provide three or four expected mistakes. 
+
 Issues detected by a validator and reported to you by your peer.
 - W3 validator detected that your site is missing the title element. Add it to the head section.
 - Both validators detected that your third image is missing the alt attribute

@@ -16,4 +16,3 @@ As you make your choice, think about any accessibility issues that may come alon
   - If this requirement doesn't "fit" your portfolio plan, please just make an extra page that fulfills it. You can always unlink it after you have been peer-graded.
 - Each page must be styled
   - The goal is not to impress, but to show competence. So add enough to show that you know how to write CSS rules. But peer-review with the knowledge that not everything will be beautiful.
-
